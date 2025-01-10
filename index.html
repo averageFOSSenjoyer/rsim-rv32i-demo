@@ -5,12 +5,12 @@
     <link rel="icon" href="data:," />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>rsim_rv32i</title>
-    <base href="/rsim-rv32i-demo" />
+    <base href="/rsim-rv32i-demo/" />
     <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
     
-<script type="module" nonce="OH1MvFwwIdb70HM1At/vMQ==">
-import init, * as bindings from '/rsim_rv32i-8040f6fa9dd18dcf.js';
-const wasm = await init({ module_or_path: '/rsim_rv32i-8040f6fa9dd18dcf_bg.wasm' });
+<script type="module" nonce="nL85XyEpF89gSklfkgV5kA==">
+import init, * as bindings from '/rsim-rv32i-demo/rsim_rv32i-8040f6fa9dd18dcf.js';
+const wasm = await init({ module_or_path: '/rsim-rv32i-demo/rsim_rv32i-8040f6fa9dd18dcf_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -20,7 +20,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
 
-    <link rel="icon" href="/favicon-f402c8741ce815ec.ico" integrity="sha384&#x2D;jNOAE6jgE03LznIulCTVP6BH4NrTuROFjP9wj8bV1UUMJKtZAvstFpIAP3PDcFpx"/>
+    <link rel="icon" href="/rsim-rv32i-demo/favicon-f402c8741ce815ec.ico" integrity="sha384&#x2D;jNOAE6jgE03LznIulCTVP6BH4NrTuROFjP9wj8bV1UUMJKtZAvstFpIAP3PDcFpx"/>
 
     
     
@@ -121,7 +121,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             }
         }
     </style>
-<link rel="modulepreload" href="/rsim_rv32i-8040f6fa9dd18dcf.js" crossorigin=anonymous integrity="sha384-6kAP4z528Fl6S2If3+DntPSuM2h1/d+0EtLQ1+HtHiJ4ur2pbVmjlgNh5e6mzpxd"><link rel="preload" href="/rsim_rv32i-8040f6fa9dd18dcf_bg.wasm" crossorigin=anonymous integrity="sha384-gSV5aRyQgy/sVKfx2Kazml+UsVWShzRQ/+JQoGlwkqYrXWloYvSz2Bld1iNe7OXz" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/rsim-rv32i-demo/rsim_rv32i-8040f6fa9dd18dcf.js" crossorigin=anonymous integrity="sha384-6kAP4z528Fl6S2If3+DntPSuM2h1/d+0EtLQ1+HtHiJ4ur2pbVmjlgNh5e6mzpxd"><link rel="preload" href="/rsim-rv32i-demo/rsim_rv32i-8040f6fa9dd18dcf_bg.wasm" crossorigin=anonymous integrity="sha384-gSV5aRyQgy/sVKfx2Kazml+UsVWShzRQ/+JQoGlwkqYrXWloYvSz2Bld1iNe7OXz" as="fetch" type="application/wasm"></head>
 
 <body>
 <!-- The WASM code will resize the canvas dynamically -->
