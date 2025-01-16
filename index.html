@@ -9,9 +9,9 @@
     <base href="/rsim-rv32i-demo/" />
     <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
     
-<script type="module" nonce="RzRW+YjQDZERlYpM/z2m4Q==">
-import init, * as bindings from '/rsim-rv32i-demo/rsim_rv32i-d30012c428e1275f.js';
-const wasm = await init({ module_or_path: '/rsim-rv32i-demo/rsim_rv32i-d30012c428e1275f_bg.wasm' });
+<script type="module" nonce="kHrVmK8rkyej1U376jwdKg==">
+import init, * as bindings from '/rsim-rv32i-demo/rsim_rv32i-443618807b14ebf1.js';
+const wasm = await init({ module_or_path: '/rsim-rv32i-demo/rsim_rv32i-443618807b14ebf1_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -122,7 +122,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             }
         }
     </style>
-<link rel="modulepreload" href="/rsim-rv32i-demo/rsim_rv32i-d30012c428e1275f.js" crossorigin=anonymous integrity="sha384-g/3ivTpqHPk6vV5bOzVbbO0NQ9qhtNxzyOL01ZmIRDRL4sudEWOr+N5Sh/PyxcxT"><link rel="preload" href="/rsim-rv32i-demo/rsim_rv32i-d30012c428e1275f_bg.wasm" crossorigin=anonymous integrity="sha384-a3aRKntJeIb1eodBXwd8NGdcvsZpgH7ICV8wk9oAKtIHWwAmGprWtAkLOJM5Zwih" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/rsim-rv32i-demo/rsim_rv32i-443618807b14ebf1.js" crossorigin=anonymous integrity="sha384-zGLJzQch4SItqwRvuHckBMFTDFMu9MYD5jmH0Wl9568gtCQ98nnjwns/x+NLVq6q"><link rel="preload" href="/rsim-rv32i-demo/rsim_rv32i-443618807b14ebf1_bg.wasm" crossorigin=anonymous integrity="sha384-m7Hly2lmgimAVbHbAa0jScTtn8/6/lqo8O26q4qI2cQATkJw0Tp3p6RFIS7mS+W2" as="fetch" type="application/wasm"></head>
 
 <body>
 <!-- The WASM code will resize the canvas dynamically -->
